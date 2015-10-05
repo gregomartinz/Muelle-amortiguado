@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99781DEC1BC2B7C9003CDE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99781DEB1BC2B7C9003CDE0A /* AppDelegate.swift */; };
+		99781DEE1BC2B7C9003CDE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99781DED1BC2B7C9003CDE0A /* ViewController.swift */; };
+		99781DF11BC2B7C9003CDE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99781DEF1BC2B7C9003CDE0A /* Main.storyboard */; };
+		99781DF31BC2B7C9003CDE0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99781DF21BC2B7C9003CDE0A /* Assets.xcassets */; };
+		99781DF61BC2B7C9003CDE0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99781DF41BC2B7C9003CDE0A /* LaunchScreen.storyboard */; };
+		99781E011BC2B7C9003CDE0A /* Muelle_AmortiguadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99781E001BC2B7C9003CDE0A /* Muelle_AmortiguadoTests.swift */; };
+		99781E0C1BC2B7C9003CDE0A /* Muelle_AmortiguadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99781E0B1BC2B7C9003CDE0A /* Muelle_AmortiguadoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99781DFD1BC2B7C9003CDE0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99781DE01BC2B7C9003CDE0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99781DE71BC2B7C9003CDE0A;
+			remoteInfo = "Muelle Amortiguado";
+		};
+		99781E081BC2B7C9003CDE0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99781DE01BC2B7C9003CDE0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99781DE71BC2B7C9003CDE0A;
+			remoteInfo = "Muelle Amortiguado";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99781DE81BC2B7C9003CDE0A /* Muelle Amortiguado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muelle Amortiguado.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99781DEB1BC2B7C9003CDE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99781DED1BC2B7C9003CDE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99781DF01BC2B7C9003CDE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99781DF21BC2B7C9003CDE0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99781DF51BC2B7C9003CDE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99781DF71BC2B7C9003CDE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99781DFC1BC2B7C9003CDE0A /* Muelle AmortiguadoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muelle AmortiguadoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99781E001BC2B7C9003CDE0A /* Muelle_AmortiguadoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muelle_AmortiguadoTests.swift; sourceTree = "<group>"; };
+		99781E021BC2B7C9003CDE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99781E071BC2B7C9003CDE0A /* Muelle AmortiguadoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muelle AmortiguadoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99781E0B1BC2B7C9003CDE0A /* Muelle_AmortiguadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muelle_AmortiguadoUITests.swift; sourceTree = "<group>"; };
+		99781E0D1BC2B7C9003CDE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99781DE51BC2B7C9003CDE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99781DF91BC2B7C9003CDE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99781E041BC2B7C9003CDE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99781DDF1BC2B7C9003CDE0A = {
+			isa = PBXGroup;
+			children = (
+				99781DEA1BC2B7C9003CDE0A /* Muelle Amortiguado */,
+				99781DFF1BC2B7C9003CDE0A /* Muelle AmortiguadoTests */,
+				99781E0A1BC2B7C9003CDE0A /* Muelle AmortiguadoUITests */,
+				99781DE91BC2B7C9003CDE0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99781DE91BC2B7C9003CDE0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99781DE81BC2B7C9003CDE0A /* Muelle Amortiguado.app */,
+				99781DFC1BC2B7C9003CDE0A /* Muelle AmortiguadoTests.xctest */,
+				99781E071BC2B7C9003CDE0A /* Muelle AmortiguadoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99781DEA1BC2B7C9003CDE0A /* Muelle Amortiguado */ = {
+			isa = PBXGroup;
+			children = (
+				99781DEB1BC2B7C9003CDE0A /* AppDelegate.swift */,
+				99781DED1BC2B7C9003CDE0A /* ViewController.swift */,
+				99781DEF1BC2B7C9003CDE0A /* Main.storyboard */,
+				99781DF21BC2B7C9003CDE0A /* Assets.xcassets */,
+				99781DF41BC2B7C9003CDE0A /* LaunchScreen.storyboard */,
+				99781DF71BC2B7C9003CDE0A /* Info.plist */,
+			);
+			path = "Muelle Amortiguado";
+			sourceTree = "<group>";
+		};
+		99781DFF1BC2B7C9003CDE0A /* Muelle AmortiguadoTests */ = {
+			isa = PBXGroup;
+			children = (
+				99781E001BC2B7C9003CDE0A /* Muelle_AmortiguadoTests.swift */,
+				99781E021BC2B7C9003CDE0A /* Info.plist */,
+			);
+			path = "Muelle AmortiguadoTests";
+			sourceTree = "<group>";
+		};
+		99781E0A1BC2B7C9003CDE0A /* Muelle AmortiguadoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99781E0B1BC2B7C9003CDE0A /* Muelle_AmortiguadoUITests.swift */,
+				99781E0D1BC2B7C9003CDE0A /* Info.plist */,
+			);
+			path = "Muelle AmortiguadoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99781DE71BC2B7C9003CDE0A /* Muelle Amortiguado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99781E101BC2B7C9003CDE0A /* Build configuration list for PBXNativeTarget "Muelle Amortiguado" */;
+			buildPhases = (
+				99781DE41BC2B7C9003CDE0A /* Sources */,
+				99781DE51BC2B7C9003CDE0A /* Frameworks */,
+				99781DE61BC2B7C9003CDE0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muelle Amortiguado";
+			productName = "Muelle Amortiguado";
+			productReference = 99781DE81BC2B7C9003CDE0A /* Muelle Amortiguado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99781DFB1BC2B7C9003CDE0A /* Muelle AmortiguadoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99781E131BC2B7C9003CDE0A /* Build configuration list for PBXNativeTarget "Muelle AmortiguadoTests" */;
+			buildPhases = (
+				99781DF81BC2B7C9003CDE0A /* Sources */,
+				99781DF91BC2B7C9003CDE0A /* Frameworks */,
+				99781DFA1BC2B7C9003CDE0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99781DFE1BC2B7C9003CDE0A /* PBXTargetDependency */,
+			);
+			name = "Muelle AmortiguadoTests";
+			productName = "Muelle AmortiguadoTests";
+			productReference = 99781DFC1BC2B7C9003CDE0A /* Muelle AmortiguadoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99781E061BC2B7C9003CDE0A /* Muelle AmortiguadoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99781E161BC2B7C9003CDE0A /* Build configuration list for PBXNativeTarget "Muelle AmortiguadoUITests" */;
+			buildPhases = (
+				99781E031BC2B7C9003CDE0A /* Sources */,
+				99781E041BC2B7C9003CDE0A /* Frameworks */,
+				99781E051BC2B7C9003CDE0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99781E091BC2B7C9003CDE0A /* PBXTargetDependency */,
+			);
+			name = "Muelle AmortiguadoUITests";
+			productName = "Muelle AmortiguadoUITests";
+			productReference = 99781E071BC2B7C9003CDE0A /* Muelle AmortiguadoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99781DE01BC2B7C9003CDE0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = UPM;
+				TargetAttributes = {
+					99781DE71BC2B7C9003CDE0A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					99781DFB1BC2B7C9003CDE0A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 99781DE71BC2B7C9003CDE0A;
+					};
+					99781E061BC2B7C9003CDE0A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 99781DE71BC2B7C9003CDE0A;
+					};
+				};
+			};
+			buildConfigurationList = 99781DE31BC2B7C9003CDE0A /* Build configuration list for PBXProject "Muelle Amortiguado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99781DDF1BC2B7C9003CDE0A;
+			productRefGroup = 99781DE91BC2B7C9003CDE0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99781DE71BC2B7C9003CDE0A /* Muelle Amortiguado */,
+				99781DFB1BC2B7C9003CDE0A /* Muelle AmortiguadoTests */,
+				99781E061BC2B7C9003CDE0A /* Muelle AmortiguadoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99781DE61BC2B7C9003CDE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99781DF61BC2B7C9003CDE0A /* LaunchScreen.storyboard in Resources */,
+				99781DF31BC2B7C9003CDE0A /* Assets.xcassets in Resources */,
+				99781DF11BC2B7C9003CDE0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99781DFA1BC2B7C9003CDE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99781E051BC2B7C9003CDE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99781DE41BC2B7C9003CDE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99781DEE1BC2B7C9003CDE0A /* ViewController.swift in Sources */,
+				99781DEC1BC2B7C9003CDE0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99781DF81BC2B7C9003CDE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99781E011BC2B7C9003CDE0A /* Muelle_AmortiguadoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99781E031BC2B7C9003CDE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99781E0C1BC2B7C9003CDE0A /* Muelle_AmortiguadoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99781DFE1BC2B7C9003CDE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99781DE71BC2B7C9003CDE0A /* Muelle Amortiguado */;
+			targetProxy = 99781DFD1BC2B7C9003CDE0A /* PBXContainerItemProxy */;
+		};
+		99781E091BC2B7C9003CDE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99781DE71BC2B7C9003CDE0A /* Muelle Amortiguado */;
+			targetProxy = 99781E081BC2B7C9003CDE0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99781DEF1BC2B7C9003CDE0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99781DF01BC2B7C9003CDE0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99781DF41BC2B7C9003CDE0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99781DF51BC2B7C9003CDE0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99781E0E1BC2B7C9003CDE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99781E0F1BC2B7C9003CDE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99781E111BC2B7C9003CDE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Muelle Amortiguado/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Muelle-Amortiguado";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99781E121BC2B7C9003CDE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Muelle Amortiguado/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Muelle-Amortiguado";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99781E141BC2B7C9003CDE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Muelle AmortiguadoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Muelle-AmortiguadoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muelle Amortiguado.app/Muelle Amortiguado";
+			};
+			name = Debug;
+		};
+		99781E151BC2B7C9003CDE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Muelle AmortiguadoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Muelle-AmortiguadoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muelle Amortiguado.app/Muelle Amortiguado";
+			};
+			name = Release;
+		};
+		99781E171BC2B7C9003CDE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Muelle AmortiguadoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Muelle-AmortiguadoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Muelle Amortiguado";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		99781E181BC2B7C9003CDE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Muelle AmortiguadoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Muelle-AmortiguadoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Muelle Amortiguado";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99781DE31BC2B7C9003CDE0A /* Build configuration list for PBXProject "Muelle Amortiguado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99781E0E1BC2B7C9003CDE0A /* Debug */,
+				99781E0F1BC2B7C9003CDE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99781E101BC2B7C9003CDE0A /* Build configuration list for PBXNativeTarget "Muelle Amortiguado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99781E111BC2B7C9003CDE0A /* Debug */,
+				99781E121BC2B7C9003CDE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99781E131BC2B7C9003CDE0A /* Build configuration list for PBXNativeTarget "Muelle AmortiguadoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99781E141BC2B7C9003CDE0A /* Debug */,
+				99781E151BC2B7C9003CDE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99781E161BC2B7C9003CDE0A /* Build configuration list for PBXNativeTarget "Muelle AmortiguadoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99781E171BC2B7C9003CDE0A /* Debug */,
+				99781E181BC2B7C9003CDE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99781DE01BC2B7C9003CDE0A /* Project object */;
+}
