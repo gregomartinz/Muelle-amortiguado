@@ -14,6 +14,8 @@
 		99781DF61BC2B7C9003CDE0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99781DF41BC2B7C9003CDE0A /* LaunchScreen.storyboard */; };
 		99781E011BC2B7C9003CDE0A /* Muelle_AmortiguadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99781E001BC2B7C9003CDE0A /* Muelle_AmortiguadoTests.swift */; };
 		99781E0C1BC2B7C9003CDE0A /* Muelle_AmortiguadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99781E0B1BC2B7C9003CDE0A /* Muelle_AmortiguadoUITests.swift */; };
+		99781E1A1BC2D646003CDE0A /* AmortiguadoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99781E191BC2D646003CDE0A /* AmortiguadoClass.swift */; settings = {ASSET_TAGS = (); }; };
+		9998AE6B1BC5751400FC8AE2 /* FunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9998AE6A1BC5751400FC8AE2 /* FunctionView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		99781E071BC2B7C9003CDE0A /* Muelle AmortiguadoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muelle AmortiguadoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99781E0B1BC2B7C9003CDE0A /* Muelle_AmortiguadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muelle_AmortiguadoUITests.swift; sourceTree = "<group>"; };
 		99781E0D1BC2B7C9003CDE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99781E191BC2D646003CDE0A /* AmortiguadoClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmortiguadoClass.swift; sourceTree = "<group>"; };
+		9998AE6A1BC5751400FC8AE2 /* FunctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				99781DF21BC2B7C9003CDE0A /* Assets.xcassets */,
 				99781DF41BC2B7C9003CDE0A /* LaunchScreen.storyboard */,
 				99781DF71BC2B7C9003CDE0A /* Info.plist */,
+				99781E191BC2D646003CDE0A /* AmortiguadoClass.swift */,
+				9998AE6A1BC5751400FC8AE2 /* FunctionView.swift */,
 			);
 			path = "Muelle Amortiguado";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			files = (
 				99781DEE1BC2B7C9003CDE0A /* ViewController.swift in Sources */,
 				99781DEC1BC2B7C9003CDE0A /* AppDelegate.swift in Sources */,
+				9998AE6B1BC5751400FC8AE2 /* FunctionView.swift in Sources */,
+				99781E1A1BC2D646003CDE0A /* AmortiguadoClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +491,7 @@
 				99781E121BC2B7C9003CDE0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99781E131BC2B7C9003CDE0A /* Build configuration list for PBXNativeTarget "Muelle AmortiguadoTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				99781E151BC2B7C9003CDE0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99781E161BC2B7C9003CDE0A /* Build configuration list for PBXNativeTarget "Muelle AmortiguadoUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				99781E181BC2B7C9003CDE0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
